@@ -1,0 +1,72 @@
+<html>
+<body>
+<script>
+/*let hero={name:"babu",movies:29,favmovie:'khaleja'};
+let hero1={name:"vd",movies:15,favmovie:'GG'};
+document.write(hero.name);
+document.write('<br>');
+document.write(hero['favmovie']);
+document.write('<br>');
+document.write(hero1.name);*/
+// USING FUNCTION
+/*function hero(name,movies,favmovie){
+ this.name=name;
+ this.movies=movies;
+ this.favmovie=favmovie;
+}
+let h1=new hero('BABU',29,'khaleja');
+let h2=new hero('VD',20,'GG');
+document.write(h1.name);
+document.write('<br>');
+document.write(h1.favmovie);
+document.write('<br>');
+document.write(h2.movies);*/
+
+/*let student={name:'venky',age:20,branch:'ECE',college:'ALIET'};
+document.write(student.age+'<br>');
+student.age=21;
+document.write(student.age+'<br>');
+student.color='red';
+document.write(student.color);*/
+//OBJECTS USING CONDITIONS
+/*let student={name:'venky',marks:25};
+if(student.marks>30)
+{
+ document.write('pass');
+}
+else
+{
+ document.write('fail');
+}*/
+//USING FUNCTIONS
+/*function total()
+{
+ let student={name:'venky',m1:20,m2:30,m3:50};
+ document.write(student.name);
+ let total=student.m1+student.m2+student.m3;
+ return total;
+}
+document.write(total());*/
+/*let student={name:'venky',m1:20,m2:30,m3:50};
+function total(student)
+{
+ let t=student.m1+student.m2+student.m3;
+ return t;
+}
+document.write(total(student));*/
+//OBJECT CONSTRUCTOR
+function employee(name,age,salary)
+{
+ this.name=name;
+ this.age=age;
+ this.salary=salary;
+ 
+}
+let e1=new employee('venky',20,45000);
+let e2=new employee('babu',25,50000);
+document.write(e1.name+'<br>');
+document.write(e2.salary);
+
+</script>
+</body>
+</html>

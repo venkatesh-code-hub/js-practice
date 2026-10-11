@@ -1,0 +1,89 @@
+<html>
+<body>
+<script>
+/*let hero={name:'babu',movies:29,favmovie:'khaleja',cfavmovie:function cfm(cf){this.favmovie=cf}};
+document.write(hero.favmovie);
+hero.cfavmovie("okkadu");
+document.write(hero.favmovie);*/
+/*function hero(name,movies){
+ this.name=name;
+ this.movies=movies;
+ this.cmovie=function(movies){
+  this.movies=movies;
+   
+ }
+}
+let h=new hero('BABU',29);
+h.cmovie(30);
+
+document.write(h.movies);*/
+/*let student={name:'venky',age:20,branch:function()
+ {
+  document.write('ECE');
+ }
+};
+student.branch();*/
+//ADD NUMBERS
+/*let n={a:10,b:20,add:function(a,b)
+ {
+ 
+ document.write(this.a+this.b);
+ }
+};
+n.add();*/
+/*let student={name:'venky',age:20,branch:'ECE',details:function()
+ {
+  document.write(this.name+this.age    +   this.branch);
+ }
+};
+student.details();*/
+//change age
+/*let student={name:'venky',age:20,changeage:function()
+{
+ this.age=21;
+ document.write(this.age);
+}
+};
+student.changeage();*/
+//TOTAL marks AVG RESULT
+/*let student={name:'venky',m1:40,m2:30,m3:50,total:function()
+{
+  
+  return this.m1+this.m2+this.m3;
+  
+},avg:function()
+{
+ return this.total()/3;
+},result:function()
+{
+ if(this.avg()>30)
+ {
+ // document.write('pass');
+ return 'pass';
+ }
+ else
+ {
+  //document.write('fail');
+  return 'fail';
+ }
+}};
+document.write(student.total()+'<br>');
+document.write(student.avg()+'<br>');
+document.write(student.result());
+//student.result();*/
+let number={n:Number(prompt('enter a number')),check:function()
+{
+ if(this.n%2==0)
+ {
+  document.write('even');
+ }
+ else{
+ document.write('odd');
+ }
+}};
+number.check();
+
+
+</script>
+</body>
+</html>
